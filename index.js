@@ -23,13 +23,13 @@
                     data: chartData.data,
                     backgroundColor: chartData.backgroundColors,  
                     borderColor:'#000000',
-                    borderWidth:0.5
+                    borderWidth:0.3
                 }],
             },
             options: {
                 plugins: {
                     legend: {
-                        display: true,
+                        display: false,
                     },
                     tooltip: {
                         callbacks: {
